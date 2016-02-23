@@ -50,23 +50,9 @@ namespace MarketCrawler
             //Goes to glws.org to check float values
             URL.gotoURL(driver, "https://glws.org");
 
-            //string[] specLinks = new string[]
-            //{ 
-            //    "steam://rungame/730/76561202255233023/+csgo_econ_action_preview%20M720935946983328154A4273039631D2659516492517370764",
-            //    "steam://rungame/730/76561202255233023/+csgo_econ_action_preview%20M787364041486792625A4272698866D9413234075445521288",
-            //    "steam://rungame/730/76561202255233023/+csgo_econ_action_preview%20M719810047076134603A4271976243D16448450704125365574",
-            //    "steam://rungame/730/76561202255233023/+csgo_econ_action_preview%20M720935946982894064A4209901121D9413234075445521288",
-            //    "steam://rungame/730/76561202255233023/+csgo_econ_action_preview%20M720935946982894344A4209902094D16448450704125365574"
-            //};
-
             Floats floats = new Floats();
 
             string[] floatArray = new string[specLinks.Count()];
-
-            //for (int i = 0; i < nmbrPages * 10; i++)
-            //{
-            //    floatArray[i] = floats.checkFloat(driver, specLinks[i]);
-            //}
 
             //Output in Console
             Console.WriteLine("Floatvalues:");

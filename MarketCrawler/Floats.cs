@@ -23,9 +23,6 @@ namespace MarketCrawler
             var checkButton = driver.FindElement(By.CssSelector("button[class='ui fluid large button']"));
             checkButton.Click();
 
-            //var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
-            //wait.Until(dr => driver.FindElement(By.CssSelector("div[class='preview k_wear_float']")));
-
             driver.Manage().Timeouts().ImplicitlyWait(TimeSpan.FromSeconds(6));
 
             IWebElement floatElement;
